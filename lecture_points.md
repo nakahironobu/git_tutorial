@@ -21,12 +21,11 @@ git commit -v 変更内容もしっかりと見れて、同時に記載される
 Gitのワークツリー、ステージ、リポジトリの状況の確認
 git status
 
-<git addする前の変更分>
+<ワークツリーとステージとの差分を表示>
 git diff
 git diff ファイル名
 
-<git addしてステージに置かれた分の変更分>
+<ステージとリポジトリの差分を表示>
 git diff --staged
-
 
 
